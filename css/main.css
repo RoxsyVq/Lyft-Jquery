@@ -1,0 +1,95 @@
+/*index principa-- hero*/
+.hero{box-sizing: border-box; background: url(../img/fondo2.jpg) no-repeat center; background-size: cover; background-attachment: fixed; }
+.deg1{background: linear-gradient(black, rgba(255, 255, 255, 0.02)); height: 100px;}
+h1{text-align: center; }
+h1 img{
+	width:250px;
+}
+.btn1, .btn2{margin: auto; width:90%; color: white; border: 3px solid white; text-align: center; padding: 5%; border-radius: 10px; font-size: 25px; }
+.btn1:hover{border: 1px solid #c800bf; background: #c800bf;}
+.btn2:hover{border: 1px solid #c800bf; background: #c800bf;}
+.fila2{width: 100%; position: absolute; bottom: 30px;}
+
+h4{font-size: 25px;}
+.input{width: 100%; padding: 10px 0 10px 60px; border: 1px solid #9596a0;}
+#icono{position: absolute; top: 10px; left: 30px; font-size: 30px; color: black;}
+#icono1{position: absolute; top: 110px; font-size: 20px; border-radius: 100%; border: 1px solid #9596a0; padding: 5px}
+#icono2{position: absolute; top: 160px; font-size: 30px;}
+#icono1, #icono2{margin: 10px;}
+.next{color: white; width: 100%; height: 70px; background: #ff00bf; font-size: 30px; line-height: 70px;}
+.intl-tel-input{width: 100%;}
+
+
+.header{
+	margin-top: 220%;
+}
+.bandera{
+	width: 100%;
+}
+.lista {
+    border-bottom: 1px solid #cdcdcd;
+    padding: 10px 0 10px 0;
+    height: 72px;
+    box-sizing: border-box;
+    position: relative;
+}
+.chat-list {
+    position: relative;
+}
+
+.chat-list li:first-child {
+    border-top: 1px solid #cdcdcd;
+}
+
+.chat-list li {
+    border-bottom: 1px solid #cdcdcd;
+    padding: 10px 0 10px 0;
+    height: 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+li {
+    list-style: none;
+}
+.wh-44 {
+    width: 30px !important;
+    height: 30px !important;
+}
+h4 {
+    display: inline;
+   font-weight: bold;
+}
+.title-country{
+
+	background: #c3c3c3;
+	padding: 10px 0 7px 0;
+	border-top:1px solid  #838181;
+	
+
+}
+.glyphicon{
+	font-size:35px;
+	margin-top: 20px;
+}
+.title-country h4{
+	margin-left: 15px;
+}
+.title, .title-country{
+	margin-left: 25px;
+}
+.title-n, .title h3{
+	text-align: center;
+	font-weight: bold;
+}
+
+
+input{
+	margin-left: none;
+	padding-left: none;
+}
+.banderas img{
+	width: 13px !important;
+    height: 8px !important;
+	
+}
