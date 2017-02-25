@@ -6,8 +6,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="icomoon/style.css">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 	<link href="css/main2.css" rel="stylesheet">
+	
 </head>
 <body>
     <div class="container">
@@ -20,23 +22,23 @@
     </div><!--cierre de container-->
     <hr>
     <div class="container">
-			   <form class="form-signup" action="" method="get" onSubmit="return validateForm(this.form)" >
+			   <form class="form-signup" action="" method="get"  >
 
 				<p>
 					<i class="icon-person" id="icono1"></i>
-					<input class="input" type="text" placeholder="Firts Name  Last Name" id="name"  onKeydown="checkInput(event)" onkeyUp="validaName()" autofocus="">
+					<input class="input" type="text" placeholder="Firts Name  Last Name" id="name"   autofocus="">
 					 <div id="salName"></div
 				</p>
 				<p>
 					<i class="icon-mail" id="icono2"></i>
-					<input class="input" type="text" placeholder="Email" id="email" onkeyUp="validaEmail()">
+					<input class="input" type="text" placeholder="Email" id="email" >
 					 <div  id="salEmail" ></div>
 				</p>
 				<br><br>
 				<p class="text-center"><input type="checkbox" id="checkbox"> I agree to Lift´s <a 		href="#">Terms of service.</a> <div id="salida_name"></div></p><br>
 					<div id="salida"></div>
 					</div><!--cierre de container-->
-		   			<a  id="enlace"> <div class="next text-center" type="submit" id="next" onclick="validateForm()">Next</div></a>
+		   			<a  id="enlace"> <div class="next text-center" type="submit" id="next" >Next</div></a>
 
 				</form>
     <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
