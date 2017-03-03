@@ -19,12 +19,13 @@
 .autos{
 
   position: static;
- top: 1100px;
+ top: 470px;
 
 }
 .autos button{
    width: 100%;
     text-align: left;
+    height: 60px;
 }
  
 .list-cars{
