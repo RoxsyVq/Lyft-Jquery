@@ -61,7 +61,6 @@ function alerta(){
 	    alertify.confirm('Bienvenida!! ', 'Tu Codigo es:' + codigo,
             function(){ alertify.success('Ok') }
             , function(){ alertify.error('Cancel')});
-          window.location="login2.html";
  
          
 }

@@ -1,0 +1,67 @@
+.header{
+    margin-top: 20px ;
+    margin-left: 30px;
+}
+.header img{
+    width: 90px;
+}
+.header span{
+    font-size: 50px;
+    position: absolute;
+    left: 40%;
+}
+.header i{
+    font-size: 40px;
+}
+.header hr{
+    
+    border: 2px solid #ccc;
+}
+.avatar , .precio {
+    text-align: center;
+}
+.avatar img{
+    width: 170px;
+    margin: 150px 0;
+}
+
+
+.propina .btn{
+   font-size: 28px; 
+}
+
+
+.pago .right{
+    float: right;
+}
+.pago{
+    border: 1px solid #ccc;
+    padding: 30px 12px 12px 30px;
+    margin: 80px 0px;
+    font-size: 40px;
+}
+.precio p{
+    font-size: 80px;
+    font-weight: bold;
+   
+    
+}
+.propina button{
+   height: 100px; 
+}
+
+.pago .paypal{
+    position: relative;
+    left: 10px;
+}
+.direccion{
+    position: absolute;
+    bottom: 80px;
+}
+.next{
+    color: white; width: 100%; height: 160px; background: #504c4f; font-size: 80px; line-height: 70px;position: absolute;bottom:10px; }
+
+
+
+/***********************request*********/
+

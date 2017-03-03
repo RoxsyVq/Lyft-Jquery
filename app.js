@@ -4,7 +4,7 @@ function initMap() {
     center: {lat: -16.4573893, lng: -71.53153089999999},
     zoom: 15
   });
-	var ubicacion={lat: -16.4573893, lng: -71.53153089999999}
+	var ubicacion ={lat: -16.4573893, lng: -71.53153089999999}
 	var ubicacion2={lat: -16.45614, lng: -71.532708}
 	var ubicacion3={lat: -16.450948 , lng: -71.534692}
 	var ubicacion4={lat: -16.450824 , lng: -71.525894}
@@ -23,7 +23,7 @@ function initMap() {
 			
 	});
 	var image = 'img/coche5x.png';
-		var marker = new google.maps.Marker({
+    var marker = new google.maps.Marker({
 		map: map,
 		position: ubicacion2,
 		title:'auto A!!',

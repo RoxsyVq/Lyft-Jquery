@@ -1,0 +1,182 @@
+
+.mapas{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+/*****************avatar-face*******/
+.avatar-face img{
+    width: 60px;
+    border-radius: 100%;
+}
+.avatar-lyf img{
+    width: 70px;
+    
+}
+
+/*******************autos**********************/
+.autos{
+
+  position: static;
+ top: 1100px;
+
+}
+.autos button{
+   width: 100%;
+    text-align: left;
+}
+ 
+.list-cars{
+    width: 550px;
+    position: absolute;
+    background: #fff;
+   border-radius: 10px ;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+ .list-cars .imagen img{
+   
+    
+    width: 50px;
+    
+}
+.list-cars li{
+    width: 100%;
+}
+.list-cars li:hover{
+    background: #ccc;
+}
+/******************logo*******/
+.avatar-lyf {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+}
+.iconos{
+    bottom: -850px;
+    position: absolute;
+}
+
+
+/************request********/
+
+.request{
+    width: 95%;
+    background: #fff;
+    position: absolute;
+    left: 25px;
+    padding-left: 0px;
+    bottom: 105px;
+    border-radius: 20px;
+    
+}
+.request .pay{
+    border-radius: 15px;
+}
+.pay , .auto{
+   background: #f2efef;
+   
+}
+.auto span h4 b{
+    font-size: 40px;
+   
+}
+.auto span p{
+    font-size: 20px;
+   
+}
+.pay .personal span .per{
+    font-size: 25px;
+}
+.direccion{
+    background: #fff
+}
+.auto img{
+    width:300px;
+    float: right;
+    padding: 20px 0px;
+}
+.pay .personal{
+    text-align: center;
+    margin-top: 15px;
+    border: 1px #ccc solid ;
+    margin:0px;
+}
+.pay .price{
+   text-align: center;
+    border: 1px #ccc solid ;  
+    padding: 5px;
+}
+.pay .price h3{
+    margin-top: 0px;
+    font-size: 25px;
+}
+.pay .price span{
+    margin-bottom: 20px;
+}
+.pay .personal img{
+    width: 30px;
+    padding-bottom: none;
+    
+}
+.pay .personal span{
+    font-size: 20px;
+    
+}
+.direccion{
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border-top:none;
+}
+.direccion span , p{
+    margin-left: 20px;
+}
+.direccion .one{
+    color:darkblue;
+    font-size: 10px;
+}
+.direccion .two{
+    color: red;
+    font-size: 10px;
+}
+.direccion .calle{
+    margin-left: 15px;
+    font-size: 22px;
+}
+.direccion .icon span{
+    margin-left: 3px;
+   font-size: 25px;
+    padding: 5px 0px;
+}
+.direccion .icon{
+    padding-right: 0px;
+    margin: 20px 0px;
+   
+}
+.direccion hr{
+    margin: 15px;
+    
+}
+.direccion  .here span{
+    margin-top: 7px;
+}
+.direccion .here{
+    padding-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*****************************next******/
+.next{
+    color: white;
+    width: 100%;
+    height: 100px; 
+    background: #ff00bf; 
+    font-size: 50px; 
+    line-height: 70px;
+    position:absolute;
+    bottom:-80px;
+    font-weight: bold;
+}
