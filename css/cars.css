@@ -6,7 +6,7 @@
     z-index: -1;
 }
 /*****************avatar-face*******/
-.avatar-face img{
+.menu_bar img{
     width: 60px;
     border-radius: 100%;
 }
@@ -21,10 +21,11 @@
     bottom: 150px 
 }
 .dropup button{
-    width: 395%;
+    width: 300%;
     text-align: left;
     height: 100px;
     font-size: 35px;
+    padding-left: 50px;
 }
 
 .list-cars{
@@ -202,4 +203,111 @@
     bottom:5px;
     font-weight: bold;
 }
+
+/*******************+hader-nav********/
+
+header {
+	width:100%;
+}
+ 
+header nav {
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+	background:#ccc;
+    display: none;
+}
+ 
+.menu_bar {
+	
+    z-index: -1;
+    
+}
+.menu_bar a{
+    background-color: transparent;
+}
+header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+ 
+header nav ul li {
+	float:left;
+}
+ 
+header nav ul li a {
+	color:#000;
+	padding: 20px;
+	display:block;
+	text-decoration:none;
+}
+ 
+header nav ul li span {
+	margin-right:20px;
+    font-size: 17px;
+}
+ 
+header nav ul li a:hover {
+	background:#868585;
+}
+ 
+section {
+	padding:20px;
+}
+ 
+@media screen and (max-width:800px ) {
+	header nav {
+		width:80%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: absolute;
+        display:block;
+        top: 5px;
+        z-index: 2;
+        
+	}
+ 
+	header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+ 
+	.menu_bar {
+		display:block;
+		width:100%;
+		
+	}
+ 
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+ 
+	.menu_bar span {
+		float:left;
+		font-size:60px;
+	}
+    header nav .menu_bar{
+        text-align: left;
+    }
+    header nav .menu_bar .datos{
+        text-align: right;
+        margin-right: 20px;
+        position: absolute;
+        top: 35px;
+        right: 30px;
+    }
+    
+}
+
+
 
