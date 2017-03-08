@@ -40,11 +40,9 @@ function valButon(){
   
    if(valInput()){
       alerta();
-       return true;
+      
   }
-    else{
-        alerta("hhhhh");
-    }
+   
     
 }
      

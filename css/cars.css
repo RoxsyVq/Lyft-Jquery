@@ -21,11 +21,11 @@
     bottom: 150px 
 }
 .dropup button{
-    width: 300%;
+    width: 100%;
     text-align: left;
     height: 100px;
     font-size: 35px;
-    padding-left: 50px;
+    padding-right: 400px;
 }
 
 .list-cars{
@@ -60,7 +60,7 @@
     top: 10px;
 }
 .iconos{
-    bottom: -850px;
+    bottom: 850px;
     position: absolute;
 }
 
@@ -255,9 +255,9 @@ section {
 	padding:20px;
 }
  
-@media screen and (max-width:800px ) {
+@media screen and (min-width:200px  ) {
 	header nav {
-		width:80%;
+		width:50%;
 		height:100%;
 		left:-100%;
 		margin:0;

@@ -1,4 +1,5 @@
 var objetoJson='[{"nombre":"Canadá","imge":"img/arg.png","codigo":"+1"},'+
+    
 		'{"nombre":" Estados Unidos","imge":"img/eeuu.jpg","codigo":"+1"},'+
 		'{"nombre":"Islas Malvina","imge":"img/islas.png",	"codigo":"+500"},'+
 		'{"nombre":"Perú",	"imge":"img/pe.png",	"codigo":"+51"},'+

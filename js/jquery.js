@@ -8,7 +8,7 @@ $(document).ready(solicitud);
           url:'https://clientes.geekadvice.pe/api/estimado', 
           data:{
               
-            tipo:1
+            tipo:3
                 }
         }).success(function(_data){
               console.log(_data);
