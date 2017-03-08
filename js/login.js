@@ -40,8 +40,12 @@ function valButon(){
   
    if(valInput()){
       alerta();
-       
+       return true;
   }
+    else{
+        alerta("hhhhh");
+    }
+    
 }
      
         
@@ -59,9 +63,11 @@ function alerta(){
 		localStorage.setItem('codigoLab',codigo);
        
 	    alertify.confirm('Bienvenida!! ', 'Tu Codigo es:' + codigo,
-            function(){ alertify.success('Ok') }
+            function(){ window.location="login2.html"; }
             , function(){ alertify.error('Cancel')});
- 
+             
+        // 
+
          
 }
 

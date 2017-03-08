@@ -20,9 +20,13 @@
 .avatar , .precio {
     text-align: center;
 }
+.avatar{
+    margin-bottom: 150px;
+}
 .avatar img{
-    width: 170px;
-    margin: 150px 0;
+    width: 250px;
+    height: 250px;
+    margin: 150px 0px 10px 0px;
 }
 
 

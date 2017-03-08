@@ -14,7 +14,9 @@
         <hr>
   </div>
    <div class="avatar">
-       <img src="img/avatar.jpg" class="img-circle img-thumbnail" alt="">
+       <img src="" class="img-circle img-thumbnail" id="avatarcod" alt="">
+       <p class="text-center" id="nombrecond"></p>
+       
    </div>
    <div class="propina container">
   
@@ -24,13 +26,13 @@
           </div>
           
           <div class="btn-group btn-group-lg" role="group">
-            <button type="button" class="btn btn-default one">$1</button>
+            <button type="button" class="btn btn-default one">$ <span id="min"></span>1</button>
           </div>
           <div class="btn-group btn-group-lg" role="group">
-                <button type="button" class="btn btn-default one">$1</button>
+                <button type="button" class="btn btn-default one">$2</button>
           </div>
           <div class="btn-group btn-group-lg" role="group">
-                <button type="button" class="btn btn-default one">$1</button>
+                <button type="button" class="btn btn-default one">$ <span id="max"></span>1</button>
           </div>
           <div class="btn-group btn-group-lg" role="group">
                 <button type="button" class="btn btn-default ">Other</button>
@@ -49,8 +51,10 @@
    </div>
    <br>
    <div class="precio">
-       <p>$ <span>9.00</span></p>
+       <p><span id="money">$</span> <span id="final">9.00</span></p>
    </div>
         <a id="enlace"> <button class="next text-center" type="submit" id="next" >Next</button></a>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/jquerycoste.js"></script>
 </body>
 </html>
